@@ -1,4 +1,4 @@
-#inclue "main.h"
+#include "main.h"
 
 /**
  *main - print putcar
