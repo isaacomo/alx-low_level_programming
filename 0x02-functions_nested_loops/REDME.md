@@ -1,1 +1,1 @@
-This is a readme file for 0x02-functions_nested_loops tasks.
+THIS IS A ONE README FOR THE C FUNCTIONS AND NESTED LOOPS.
