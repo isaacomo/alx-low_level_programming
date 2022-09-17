@@ -3,26 +3,28 @@
 /**
  * print_triangle - function that prints a triangle, followed by a new line.
  * @size: size triangle
- * Return: nothing.
+ * Return: nothing
  */
 
 void print_triangle(int size)
 {
-	int row, col, aux;
+	int i = 0, j, n = size - 1;
 
 	if (size > 0)
 	{
-		for (row = 0; row < size; row++)
+		for (; i < size; i++)
 		{
-			for (col = 0; col < size; col++)
+			for (j = 0; j < size; j++)
 			{
-				aux = (size - row) - 1;
-				if (col < aux)
-					_putchar('#');
+				if (j < n)
+					_putchar(' ');
 				else
+					_putchar('#');
 			}
-			_putchar('\n');
+			n--;
+			_putchar('\n')
 		}
 	}
-	_putchar('\n');
+	else
+		_putchar('\n');
 }
