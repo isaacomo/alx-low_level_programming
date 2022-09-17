@@ -5,7 +5,6 @@
  * @size: size triangle
  * Return: nothing
  */
-
 void print_triangle(int size)
 {
 	int i = 0, j, n = size - 1;
