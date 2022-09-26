@@ -2,21 +2,21 @@
 
 /**
  * _memset - function that fills memory with a constant byte.
- * @s: mamory area to return
- * @b: constant byte
- * @n: size of bytes
+ * @s: location to fill
+ * @b: char to fill location with
+ * @n: number of bytes to fill
  *
- * Return: char
+ * Return: returns pointer to location filled
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
+	char *start = s;
 
-	while (i < n)
+	while (n--)
 	{
-		*(s + i) = b;
-		i += 1;
+		*s = b;
+		s++;
 	}
-	return (s);
+	return (start);
 }
