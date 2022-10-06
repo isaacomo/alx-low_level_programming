@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Check the code
+ * main - program that multiplies two positive numbers.
  * @argc: number of arguments
  * @argv: arguments
  *
