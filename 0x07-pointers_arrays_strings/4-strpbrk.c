@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mainn.h"
+#include "main.h"
 
 /**
  * _strpbrk - Entry point
